@@ -5,13 +5,13 @@ def saque(valor):
         quantidade = int(valor // nota)
         valor -= quantidade * nota
 
-        print(f’{quantidade} notas de R${nota}’)
+        print(f'{quantidade} notas de R${nota}')
 
     if valor > 0:
-        print(‘Restam {valor} centavos.’)
+        print('Restam {valor} centavos.')
     else:
-        print(‘Saque realizado com sucesso!’)
+        print('Saque realizado com sucesso!')
 
 
-valor = int(input(‘Digite o valor do saque: R$’)
+valor = int(input('Digite o valor do saque: R$'))
 saque(valor)
