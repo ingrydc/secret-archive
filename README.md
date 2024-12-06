@@ -1,2 +1,2 @@
-# secret archive
+# secret-archive
 grily chilling and testing
