@@ -1,3 +1,6 @@
+# sistema de notas baseado na quantidade de faltas
+# se o aluno tiver mais de 10 faltas, afetará diretaente o conceito da nota
+
 nota = float(input('Digite sua nota: '))
 faltas = int(input('Digite o número de faltas: '))
 
