@@ -1,2 +1,2 @@
 # secret-archive
-grily chilling and testing
+girly chilling and testing
