@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sistema de notas</title>
+</head>
+<body>
+    <h1>Sistema de Notas</h1>
+    <div class="box">
+        <label for="nota">Nota:</label>
+        <input type="number" id="nota" step="0.01"><br>
+        <label for="faltas">Faltas:</label>
+        <input type="number" id="faltas"><br>
+        <button id="calcular" type="button" onclick="calcule()">Calcular nota</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
