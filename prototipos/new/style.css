@@ -137,3 +137,46 @@ footer a {
 footer a:hover {
     color: #DCDCDC;
 }
+
+@media (max-width: 1080px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-items: center;
+    }
+
+    .welcome {
+        width: 80%;
+        height: 50%;
+        margin-bottom: 50px;
+    }
+
+    .welcome h1 {
+        margin-bottom: 20px;
+        font-size: 80px;
+    }
+
+    .login {
+        margin-top: 40px;
+        width: 80%;
+        padding: 20px;
+    }
+
+    .login h2 {
+        font-size: 30px;
+    }
+
+    .login form span {
+        font-size: 12px;
+    }
+
+    .login form input {
+        color: #c2c2c2;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
